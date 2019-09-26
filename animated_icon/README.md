@@ -1,16 +1,14 @@
 # animated_icon
 
-A new Flutter project.
+This is a light weighted widget for you to establish your own animated icon in flutter.
+
+Is it easy to use? Please watch the guide.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+What can I do with the widget? Need to write down a animation by myself?<br/>
 
-A few resources to get you started if this is your first Flutter project:
+NO NEED. What you need to provide is just as simple as HELLO WORLD.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+First of all, let's see a demo for this.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
