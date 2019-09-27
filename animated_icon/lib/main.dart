@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("build MyApp");
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
@@ -27,6 +28,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("build home");
     return Container(
       child: getButtonList(context),
     );
@@ -80,23 +82,24 @@ getButtonList( BuildContext context) {
     crossAxisAlignment: CrossAxisAlignment.center,
     children: <Widget>[
       AnimatedIconWidget(
-          key: UniqueKey(),
+          key: Key("1"),
           animationList: stages1,
           icon: Icons.favorite,
           size: iconSize,
           callback: () {
-            print("clicked");
+            
           }),
       AnimatedIconWidget(
-        key: UniqueKey(),
+        key: Key("2"),
         animationList: stages3,
         icon: Icons.favorite,
         size: iconSize,
         callback: () {
-          print("clicked");
+          
         },
       ),
       AnimatedIconWidget(
+        key: Key("3"),
         animationList: stages2,
         icon: Icons.comment,
         size: iconSize,
@@ -106,6 +109,7 @@ getButtonList( BuildContext context) {
         },
       ),
       AnimatedIconWidget(
+        key: Key("4"),
         animationList: stages2,
         icon: Icons.reply,
         size: iconSize,

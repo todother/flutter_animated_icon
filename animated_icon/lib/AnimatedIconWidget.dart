@@ -94,6 +94,7 @@ class _AnimatedIconWidgetState extends State<AnimatedIconWidget>
 
   @override
   Widget build(BuildContext context) {
+    print('build ${widget.key.toString()}');
     return IconButton(
       padding: EdgeInsets.all(0),
       onPressed: () {
